@@ -7,7 +7,10 @@ export default function Home() {
       <Head>
         <title>Techcast Donation</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="propeller" content="87f920958a2dbaca6ace23e85ea2c105"></meta>
       </Head>
+
+      <script src="/scripts/popcash.js"></script>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
